@@ -122,6 +122,49 @@ border:0;
 border-radius:10px;
 }
 
+
+.developer{
+
+text-align:center;
+padding:60px;
+background:#fafafa;
+
+}
+
+.profileCard{
+
+width:250px;
+margin:auto;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+}
+
+.profileCard img{
+
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+
+}
+
+.profileCard h3{
+
+margin:5px 0;
+
+}
+
+.insta{
+
+color:#E1306C;
+font-weight:bold;
+
+}
+
 /* FOOTER */
 
 footer{
