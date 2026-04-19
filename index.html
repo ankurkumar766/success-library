@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Success Library</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>SUCCESS LIBRARY</h1>
+<p>Focus • Study • Succeed</p>
+<button onclick="adminLogin()">Admin Login</button>
+
+</header>
+
+<section class="hero">
+
+<h2>Best Study Environment</h2>
+<p>58 Comfortable Seats Available</p>
+
+</section>
+
+
+<section class="formSection">
+
+<h2>Add Student</h2>
+
+<input id="name" placeholder="Student Name">
+
+<input id="seat" type="number" placeholder="Seat Number (1-60)">
+<input id="date" type="date" placeholder="Date of payment">
+<input id="phone" type="number" placeholder="Mobile no(0-9)">
+
+<select id="shift">
+
+<option>10AM-2PM</option>
+<option>2PM-6PM</option>
+<option>Double Shift</option>
+
+</select>
+
+<button onclick="addUser()">Add Student</button>
+
+</section>
+
+
+<section>
+
+<h2 class="title">Seat Layout</h2>
+
+<div class="seats" id="seatContainer"></div>
+
+</section>
+
+
+<section class="facility">
+
+<h2>Library Facilities</h2>
+
+<div class="facilityGrid">
+
+<div>⚡ High Speed Internet</div>
+<div>❄️ Air Conditioned Hall</div>
+<div>💧 Pure Drinking Water</div>
+<div>🚻 Clean Bathroom</div>
+<div>🔌 Charging Points</div>
+<div>📚 Silent Study Zone</div>
+
+</div>
+
+</section>
+
+
+<section class="location">
+
+<h2>Our Location</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Sahid%20Chowk%20Domchanch%20Koderma%20Jharkhand&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</section>
+
+
+<footer>
+
+<h3>Follow Us</h3>
+
+<div class="social">
+
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-facebook"></i>
+
+</div>
+
+<p>© Success Library</p>
+<p>Phone no : 9508855164, 9279716243</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
