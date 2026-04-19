@@ -100,6 +100,12 @@ container.appendChild(div);
 // ADD USER
 function addUser(){
 
+// 🔒 Only Admin Allowed
+if(!isAdmin){
+alert("Only Admin Can Book Seat");
+return;
+}
+
 let name=document.getElementById("name").value;
 
 let phone=document.getElementById("phone").value;
@@ -195,8 +201,6 @@ localStorage.setItem("users",JSON.stringify(users));
 renderSeats();
 
 }
-
-
 
 // PAY SEAT
 function paySeat(seat,shift){
