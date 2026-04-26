@@ -124,47 +124,66 @@ border-radius:10px;
 
 
 .developer{
-
 text-align:center;
-padding:60px;
-background:#fafafa;
-
+padding:80px 20px;
+background:linear-gradient(to right,#1e1e1e4e,#2c2c2c);
+color:white;
 }
 
 .profileCard{
-
-width:250px;
+width:280px;
 margin:auto;
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
+padding:30px;
+border-radius:20px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
 
+.profileCard:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 30px rgba(0,0,0,0.5);
 }
 
 .profileCard img{
-
 width:120px;
 height:120px;
 border-radius:50%;
 object-fit:cover;
-margin-bottom:10px;
-
+border:3px solid white;
+margin-bottom:15px;
 }
 
 .profileCard h3{
+margin:10px 0;
+font-size:22px;
+}
 
+.profileCard p{
 margin:5px 0;
-
+color:#ccc;
 }
 
-.insta{
-
-color:#E1306C;
+.instaLink{
+display:inline-block;
+margin-top:10px;
+padding:10px 15px;
+border-radius:20px;
+background:#E1306C;
+color:white;
+text-decoration:none;
 font-weight:bold;
-
+transition:0.3s;
 }
 
+.instaLink:hover{
+background:#ff4d88;
+}
+
+.instaLink i{
+margin-right:8px;
+}
 /* FOOTER */
 
 footer{
